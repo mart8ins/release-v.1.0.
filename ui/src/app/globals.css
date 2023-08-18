@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.nav-title {
+    margin-left: 40px;
+    font-size: 15px;
+    color: rgb(183, 183, 183);
+}
+.nav-title:hover {
+    cursor: pointer;
+    color: rgb(99, 99, 99);
+}
+
+.auth-container {
+    display: flex;
+    align-items: center;
+}
+
+.textfield {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 80px auto;
+}
+
+.books-container {
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.add-book-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.add-book-container>div {
+    margin-bottom: 20px;
+}
+
+.add-new-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.book {
+    border: 1px solid grey;
+    width:max-content;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.no-books {
+    font-size: 20px;
+    font-weight: bold;
+}
+.no-books>div {
+    text-align: center;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.wrong-credentials {
+    margin-right: 20px;
+    color: red;
+}
+.books-error {
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    color: red;
+}
