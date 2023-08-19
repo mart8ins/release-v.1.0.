@@ -8,7 +8,7 @@ import java.util.List;
 @Data
 public class BookResponse {
     private List<Book> books;
-    int pages;
+    private int pages;
 
     protected BookResponse() {
     }

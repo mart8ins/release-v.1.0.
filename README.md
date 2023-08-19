@@ -4,7 +4,9 @@ This is a project to simulate simple book store functionality. Front end is buil
 
 ## Getting Started Front End
 
-First, run the development server:
+* Downloud and install [nodejs](https://nodejs.org/en)
+
+* Run the development server:
 
 ```bash
 cd ui

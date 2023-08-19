@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class AdminController {
-    AdminService adminService;
+    private AdminService adminService;
 
     public AdminController(AdminService adminService) {
         this.adminService = adminService;
@@ -17,7 +17,6 @@ public class AdminController {
     @ResponseStatus(HttpStatus.CREATED)
     @PutMapping("admin/save")
     public void save(@RequestBody Book book){
-        System.out.println(book);
         adminService.save(book);
     }
 }

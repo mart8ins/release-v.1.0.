@@ -15,7 +15,7 @@ public class AdminService {
 
     Logger logger = LoggerFactory.getLogger(AdminService.class);
 
-    BookRepository bookRepository;
+    private BookRepository bookRepository;
 
     public AdminService(BookRepository bookRepository) {
         this.bookRepository = bookRepository;

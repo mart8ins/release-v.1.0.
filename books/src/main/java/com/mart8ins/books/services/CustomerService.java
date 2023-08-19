@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CustomerService {
 
-    BookRepository bookRepository;
+    private BookRepository bookRepository;
 
     public CustomerService(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
